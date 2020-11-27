@@ -4,7 +4,7 @@ require('connect.php');
         $num = $_POST['Name'];
         $numa = $_POST['Height'];
         $numb = $_POST['Weight'];
-        $numc = $numb / $numa;
+        $numc = $numb / ($numa)**2;
 
         $sql = "INSERT INTO labitf (Name, Height, Weight, BMI) value ('$num','$numa', '$numb', '$numc')";
 
