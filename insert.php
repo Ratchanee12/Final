@@ -30,11 +30,11 @@ require('connect.php');
 <body>
     <form action="insert.php" method="post">
         <h1>Name</h1>
-        <input type="text" name="Product">
+        <input type="text" name="Name">
         <h1>Height</h1>
-        <input type="text" name="Price">
+        <input type="text" name="Height">
         <h1>Weight</h1>
-        <input type="text" name="Amount">
+        <input type="text" name="Weight">
         <input type="submit" value="Submit" name="submit">
     </form>
 </body>
