@@ -34,9 +34,9 @@
 								<thead>
 									<tr>
 										<th width="150px">Product</th>
-										<th>Price</th>
-										<th>Amount</th>
-										<th>Total</th>
+										<th>Height</th>
+										<th>Weight</th>
+										<th>BMI</th>
 									</tr>
 								</thead>
 								<tbody>
