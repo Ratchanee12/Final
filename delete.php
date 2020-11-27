@@ -1,6 +1,6 @@
 <?php
 	$conn = mysqli_connect('ratchanee.mysql.database.azure.com', 'Ratchanee@ratchanee', 'FWTsod26', 'ITFLab', 3306);
-	$sql = 'DELETE FROM labitf WHERE Id = '.$_GET['Id'].'';
+	$sql = 'DELETE FROM ITFLab WHERE Id = '.$_GET['Id'].'';
 ?>
 <!DOCTYPE html>
 <html>
