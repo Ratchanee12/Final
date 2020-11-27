@@ -6,7 +6,7 @@ require('connect.php');
         $numb = $_POST['Weight'];
         $numc = $numb / ($numa)**2;
 
-        $sql = "INSERT INTO ITFLab (Name, Height, Weight, BMI) value ('$num','$numa', '$numb', '$numc')";
+        $sql = "INSERT INTO ITF (Name, Height, Weight, BMI) value ('$num','$numa', '$numb', '$numc')";
 
         if(mysqli_query($conn, $sql)){
             echo "New data insert successfully";
@@ -29,12 +29,12 @@ require('connect.php');
 
 <body>
     <form action="insert.php" method="post">
-        <h1>Name</h1>
-        <input type="text" name="Name">
-        <h1>Height</h1>
-        <input type="text" name="Height">
-        <h1>Weight</h1>
-        <input type="text" name="Weight">
+        <h1>Product</h1>
+        <input type="text" name="Product">
+        <h1>Price</h1>
+        <input type="text" name="Price">
+        <h1>Amount</h1>
+        <input type="text" name="Amount">
         <input type="submit" value="Submit" name="submit">
     </form>
 </body>
