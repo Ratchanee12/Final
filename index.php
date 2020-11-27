@@ -44,10 +44,10 @@
 										while($Result = mysqli_fetch_array($res)) {
 									?>
 									<tr>
-										<td><?php echo $Result['Product'];?></td>
-										<td><?php echo $Result['Price'];?></td>
-										<td><?php echo $Result['Amount'];?></td>
-                                        <td><?php echo $Result['Total'];?></td>
+										<td><?php echo $Result['Name'];?></td>
+										<td><?php echo $Result['Height'];?></td>
+										<td><?php echo $Result['Weight'];?></td>
+                                        <td><?php echo $Result['BMI'];?></td>
                                         <td><a href="delete.php?Id=<?php echo $Result['Id'];?>" class="btn btn-warning mb-2 mb-md-0">DEL</a>
 									</tr>
 									<?php
