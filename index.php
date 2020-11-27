@@ -23,7 +23,7 @@
 						<div class="table-success">
 							<?php
 								$conn = mysqli_init();
-								mysqli_real_connect($conn, 'itflabfinal.mysql.database.azure.com', 'it63070113', 'EMLcnk22', 'labitf', 3306);
+								mysqli_real_connect($conn, 'ratchanee.mysql.database.azure.com', 'Ratchanee@ratchanee', 'FWTsod26', 'ITFLab', 3306);
 								if (mysqli_connect_errno($conn))
 								{
 								    die('Failed to connect to MySQL: '.mysqli_connect_error());
